@@ -1,0 +1,208 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86B6C3B31595239F004756D1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 86B6C3B21595239F004756D1 /* main.cpp */; };
+		86B6C3B51595239F004756D1 /* opencv_homography.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 86B6C3B41595239F004756D1 /* opencv_homography.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		86B6C3AC1595239F004756D1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				86B6C3B51595239F004756D1 /* opencv_homography.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		86B6C3AE1595239F004756D1 /* opencv_homography */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = opencv_homography; sourceTree = BUILT_PRODUCTS_DIR; };
+		86B6C3B21595239F004756D1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		86B6C3B41595239F004756D1 /* opencv_homography.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = opencv_homography.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86B6C3AB1595239F004756D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86B6C3A31595239F004756D1 = {
+			isa = PBXGroup;
+			children = (
+				86B6C3B11595239F004756D1 /* opencv_homography */,
+				86B6C3AF1595239F004756D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86B6C3AF1595239F004756D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86B6C3AE1595239F004756D1 /* opencv_homography */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86B6C3B11595239F004756D1 /* opencv_homography */ = {
+			isa = PBXGroup;
+			children = (
+				86B6C3B21595239F004756D1 /* main.cpp */,
+				86B6C3B41595239F004756D1 /* opencv_homography.1 */,
+			);
+			path = opencv_homography;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86B6C3AD1595239F004756D1 /* opencv_homography */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86B6C3B81595239F004756D1 /* Build configuration list for PBXNativeTarget "opencv_homography" */;
+			buildPhases = (
+				86B6C3AA1595239F004756D1 /* Sources */,
+				86B6C3AB1595239F004756D1 /* Frameworks */,
+				86B6C3AC1595239F004756D1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = opencv_homography;
+			productName = opencv_homography;
+			productReference = 86B6C3AE1595239F004756D1 /* opencv_homography */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86B6C3A51595239F004756D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 86B6C3A81595239F004756D1 /* Build configuration list for PBXProject "opencv_homography" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 86B6C3A31595239F004756D1;
+			productRefGroup = 86B6C3AF1595239F004756D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86B6C3AD1595239F004756D1 /* opencv_homography */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86B6C3AA1595239F004756D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B6C3B31595239F004756D1 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		86B6C3B61595239F004756D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		86B6C3B71595239F004756D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		86B6C3B91595239F004756D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		86B6C3BA1595239F004756D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86B6C3A81595239F004756D1 /* Build configuration list for PBXProject "opencv_homography" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86B6C3B61595239F004756D1 /* Debug */,
+				86B6C3B71595239F004756D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86B6C3B81595239F004756D1 /* Build configuration list for PBXNativeTarget "opencv_homography" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86B6C3B91595239F004756D1 /* Debug */,
+				86B6C3BA1595239F004756D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86B6C3A51595239F004756D1 /* Project object */;
+}
