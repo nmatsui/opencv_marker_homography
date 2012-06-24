@@ -1,7 +1,8 @@
 opencv_marker_homography
 ========================
 
-OpenCV 2.3.1系のAPIを前提としています
+OpenCV 2.3系のAPIを前提としています。
+OS X Lion + xcode 4.2.1 + opencv 2.3.1a で動作確認しています。
 
 ターゲット設定
 --------------
